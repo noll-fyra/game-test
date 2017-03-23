@@ -1,0 +1,33 @@
+body {
+  background-color: gold;
+  margin: 10 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+div {
+  /*min-width: 480px;
+  min-height:400px;*/
+  width: 725px;
+  height: 425px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-family: helvetica;
+  text-align: center;
+}
+
+canvas {
+  border: 5px black solid;
+  padding: 0;
+  /*box-sizing: border-box;*/
+  margin: 10 auto;
+  cursor: none;
+  background-color: white;
+}
