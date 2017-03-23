@@ -61,8 +61,8 @@
 
     window.addEventListener('deviceorientation', function(event) {
       console.log(event.gamma)
-      hero.x += Math.floor(event.gamma / 10) * 10
-      hero.y += Math.floor(event.beta / 10) * 10
+      hero.x += Math.floor(event.gamma / 10) * 2
+      hero.y += Math.floor(event.beta / 10) * 2
     })
 
     // window.addEventListener('devicemotion', function(event) {
